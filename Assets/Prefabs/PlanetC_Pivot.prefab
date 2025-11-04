@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2342265001606275252}
   - component: {fileID: 8927475208302625174}
   m_Layer: 0
-  m_Name: PlanetC
+  m_Name: PlanetC_Pivot
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
