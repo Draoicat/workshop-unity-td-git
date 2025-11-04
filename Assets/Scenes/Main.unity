@@ -119,6 +119,70 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &193040299
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2837351760270554146, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_Name
+      value: PlanetA
+      objectReference: {fileID: 0}
+    - target: {fileID: 5544800805161511399, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2662595638042386552, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1530273310}
+  m_SourcePrefab: {fileID: 100100000, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
 --- !u!4 &294570322 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8938286872897585622, guid: fbb52e23b9ae0b848b303d0e98e4ee47, type: 3}
@@ -268,6 +332,11 @@ MonoBehaviour:
   pivot: {fileID: 294570322}
   angularSpeed: 50
   selfRotationSpeed: 40
+--- !u!4 &866980359 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1210862142460600194, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+  m_PrefabInstance: {fileID: 193040299}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &926822196 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4168962785109135919, guid: 9e99d4e3715c0a547ba0f16e46dbe3e6, type: 3}
@@ -394,6 +463,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1530273308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2662595638042386552, guid: 1c55e052cf5291a4eb7e1f78541f2708, type: 3}
+  m_PrefabInstance: {fileID: 193040299}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1530273310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1530273308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56d0858ebbd77214fa5aee69e941ca42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivot: {fileID: 866980359}
+  angularSpeed: 20
+  selfRotationSpeed: 30
 --- !u!1001 &1557345220
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -655,3 +744,4 @@ SceneRoots:
   - {fileID: 2109889300}
   - {fileID: 2996515081001862097}
   - {fileID: 382457506}
+  - {fileID: 193040299}
